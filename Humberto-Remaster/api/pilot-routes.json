@@ -1,0 +1,12 @@
+{
+  "origin": "Luz",
+  "destination": "Paraíso",
+  "source": "https://www.metro.sp.gov.br/sua-viagem/linhas-estacoes/linha-2-verde/estacao-consolacao/",
+  "routes": [
+    {"id": "azul", "rides": [{"lineId": 1, "stationIds": [42, 43, 44, 45, 46, 47, 48]}]},
+    {"id": "amarela-verde", "rides": [
+      {"lineId": 4, "stationIds": [79, 80, 86, 81]},
+      {"lineId": 2, "stationIds": [22, 23, 24, 25]}
+    ]}
+  ]
+}

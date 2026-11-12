@@ -1,0 +1,29 @@
+{
+  "master": "local[2]",
+  "inputs": {
+    "setores": 26352,
+    "pares": 3921
+  },
+  "output_rows": 151,
+  "same_output": true,
+  "plans": {
+    "sort_merge": {
+      "seconds": [
+        0.286,
+        0.215,
+        0.182
+      ],
+      "median_seconds": 0.215,
+      "join": "+- *(5) SortMergeJoin [sector#0], [sector#7], Inner"
+    },
+    "broadcast": {
+      "seconds": [
+        0.235,
+        0.173,
+        0.174
+      ],
+      "median_seconds": 0.174,
+      "join": "+- *(2) BroadcastHashJoin [sector#0], [sector#7], Inner, BuildRight, false"
+    }
+  }
+}

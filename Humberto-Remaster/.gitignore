@@ -1,0 +1,9 @@
+data/
+__pycache__/
+.venv/
+node_modules/
+dist/
+bin/
+obj/
+.DS_Store
+api/wwwroot/
